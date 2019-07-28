@@ -11,7 +11,7 @@ puts display_board(board)
 
 puts "Where would you like to go?"
 puts "Please enter a number 1-9:"
-# Takes user input 
+# Takes user input
 input = gets.strip
 
 index = input_to_index(input)
