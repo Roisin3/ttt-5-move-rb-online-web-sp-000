@@ -14,8 +14,9 @@ def input_to_index(user_input)
 end
 
 # Takes arguments board, #input_to_index, and user_choice(with default value of X)
-# assigns board array the return value of input_to_index and sets it to string X
-#
+# assigns board array the return value of input_to_index and sets it to string X.
+# This is where I am getting lost. I wrote it and know how it *SHOULD* work but
+# cannot figure out *HOW* it is working. 
 def move(board, input_to_index, user_choice = "X")
   board[input_to_index] = user_choice
 end
