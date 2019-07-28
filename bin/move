@@ -16,5 +16,6 @@ input = gets.strip
 # Passes input to #input_to_index and assigns as variabel index
 index = input_to_index(input)
 
+# 
 move(board, index)
 display_board(board)

@@ -15,7 +15,7 @@ end
 
 # Takes arguments board, #input_to_index, and user_choice(with default value of X)
 # assigns board array the return value of input_to_index and sets it to string X
-# 
+#
 def move(board, input_to_index, user_choice = "X")
   board[input_to_index] = user_choice
 end
