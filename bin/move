@@ -13,7 +13,7 @@ puts "Where would you like to go?"
 puts "Please enter a number 1-9:"
 # Takes user input
 input = gets.strip
-
+# Passes input to #input_to_index and assigns as variabel index
 index = input_to_index(input)
 
 move(board, index)
